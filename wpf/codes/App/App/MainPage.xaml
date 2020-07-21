@@ -6,9 +6,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    FontSize="48">
 
     <Grid>
-
+        <TextBlock Text="Left / Top" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock Text="Center / Top" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Text="Right / Top" HorizontalAlignment="Right" VerticalAlignment="Top" />
+        <TextBlock Text="Left / Center" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBlock Text="Center / Center" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBlock Text="Right / Center" HorizontalAlignment="Right" VerticalAlignment="Center" />
+        <TextBlock Text="Left / Bottom" HorizontalAlignment="Left" VerticalAlignment="Bottom" />
+        <TextBlock Text="Center / Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+        <TextBlock Text="Right / Bottom" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
     </Grid>
 </Page>
